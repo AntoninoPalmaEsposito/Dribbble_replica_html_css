@@ -12,6 +12,7 @@ body {
     font-family: 'Poppins', sans-serif;
     font-family: 'Roboto', sans-serif;
     background-color: #F8F7F4;
+    letter-spacing: 0.5px;
 }
 
 /* NAV-BAR */
@@ -47,20 +48,30 @@ nav {
 /* NAV-IMG */
 nav img {
     height: 27px;
+    margin-right: 7vw;
+    
+    
+    
     
 }
 
 /* NAV-DS */
+.container-navdx {
+    display: flex;
+    align-items: center;
+}
 .container-input {
     padding: 0 25px;
     border-radius: 100px;
     background-color: white;
-    width: 230px;
+    width: 300px;
     display: flex;
+    align-items: center;
 }
 
 .container-navdx input i {
     color: rgb(233, 233, 233);
+    
     
 }
 .container-navdx input {
@@ -73,4 +84,75 @@ nav img {
 }
 
 /* BOTTOM */
+.container-bottom {
+    display: flex;
 
+}
+
+.login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.login a {
+    font-size: 14px;
+    margin: 0 28px;
+    color: black;
+    font-weight: 600;
+}
+
+.iscrizione {
+    font-size: 14px;
+    height: 48px;
+    background-color: black;
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    
+}
+
+.iscrizione a {
+    color: white;
+    font-weight: 600;
+    
+}
+
+/* SECTION */
+
+.section1 {
+    display: flex;
+    justify-content: center;
+}
+
+.section1 a {
+    color: black;
+    background-color: rgb(249, 203, 98);
+    padding: 10px 17px;
+    margin-top: 80px;
+    border-radius: 50px;
+    animation-name: bg-section;
+    animation-duration: 60s;
+    animation-iteration-count: infinite;
+    font-family: serif;
+    font-size: 18px;
+    letter-spacing: 0.3px;
+    font-weight: 600;
+}
+
+@keyframes bg-section {
+    20% {
+        background-color: rgb(249, 174, 174);
+    }
+    40% {
+        background-color: rgb(252, 181, 252);
+    }
+    60% {
+        background-color: rgb(212, 176, 250);
+    }
+    80% {
+        background-color: rgb(221, 220, 220);
+    }
+    
+}
