@@ -16,7 +16,7 @@ body {
 }
 
 /* NAV-BAR */
-nav {
+.nav1 {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -39,6 +39,7 @@ nav {
     color: black;
     font-weight: 600;
     letter-spacing: 0.5px;
+    text-wrap: nowrap;
 }
 
 .nav-list li a i {
@@ -64,7 +65,7 @@ nav img {
     padding: 0 25px;
     border-radius: 100px;
     background-color: white;
-    width: 300px;
+    width:  250px;
     display: flex;
     align-items: center;
 }
@@ -117,6 +118,53 @@ nav img {
     color: white;
     font-weight: 600;
     
+}
+
+
+/* NAV 2 */
+@media screen and (max-width:1440px) {
+    .nav1 {
+        display: none;
+    }
+    .nav2 {
+        display: flex !important;
+        
+    }
+    nav img {
+        margin-right: 0;
+    }
+    nav ul {
+        padding-left: 20px;
+    }
+}
+
+@media screen and (max-width:1050px) {
+    .lentina {
+        display: block !important;
+    }
+    .container-input {
+        display: none;
+    }
+    
+
+}
+   
+.lentina {
+    display: none;
+}
+
+
+.nav2 {
+    display: none;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+    height: 100px;
+    
+}
+
+.container-nav2 {
+    display: flex;
 }
 
 /* SECTION */
