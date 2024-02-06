@@ -167,6 +167,19 @@ nav img {
     display: flex;
 }
 
+
+/* NAV */
+@media screen and (max-width:1050px) {
+    .lentina {
+        display: block !important;
+    }
+    .container-input {
+        display: none;
+    }
+    
+
+}
+
 /* SECTION */
 
 .section1 {
