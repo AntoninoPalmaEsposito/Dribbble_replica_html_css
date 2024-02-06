@@ -1,5 +1,4 @@
-*
-{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -15,6 +14,8 @@ body {
     letter-spacing: 0.5px;
 }
 
+
+
 /* NAV-BAR */
 .nav1 {
     display: flex;
@@ -23,11 +24,11 @@ body {
     padding: 0 40px;
     height: 100px;
 }
- 
-/* NAV-LIST SN */
+
+/* NAV-LIST SX */
 .nav-list {
     display: flex;
-    
+
 }
 
 .nav-list li {
@@ -50,31 +51,27 @@ body {
 nav img {
     height: 27px;
     margin-right: 7vw;
-    
-    
-    
-    
 }
 
-/* NAV-DS */
+/* NAV-DX */
 .container-navdx {
     display: flex;
     align-items: center;
 }
+
 .container-input {
     padding: 0 25px;
     border-radius: 100px;
     background-color: white;
-    width:  250px;
+    width: 250px;
     display: flex;
     align-items: center;
 }
 
 .container-navdx input i {
     color: rgb(233, 233, 233);
-    
-    
 }
+
 .container-navdx input {
     width: 220px;
     height: 48px;
@@ -84,10 +81,10 @@ nav img {
     background-color: white;
 }
 
+
 /* BOTTOM */
 .container-bottom {
     display: flex;
-
 }
 
 .login {
@@ -95,6 +92,7 @@ nav img {
     align-items: center;
     justify-content: center;
 }
+
 .login a {
     font-size: 14px;
     margin: 0 28px;
@@ -111,13 +109,11 @@ nav img {
     justify-content: center;
     align-items: center;
     border-radius: 50px;
-    
 }
 
 .iscrizione a {
     color: white;
     font-weight: 600;
-    
 }
 
 
@@ -126,13 +122,15 @@ nav img {
     .nav1 {
         display: none;
     }
+
     .nav2 {
         display: flex !important;
-        
     }
+
     nav img {
         margin-right: 0;
     }
+
     nav ul {
         padding-left: 20px;
     }
@@ -145,14 +143,11 @@ nav img {
     .container-input {
         display: none;
     }
-    
-
 }
-   
+
 .lentina {
     display: none;
 }
-
 
 .nav2 {
     display: none;
@@ -160,7 +155,6 @@ nav img {
     align-items: center;
     padding: 0 40px;
     height: 100px;
-    
 }
 
 .container-nav2 {
@@ -168,20 +162,56 @@ nav img {
 }
 
 
-/* NAV */
-@media screen and (max-width:1050px) {
-    .lentina {
-        display: block !important;
+/* NAV 3*/
+@media screen and (max-width:950px) {
+    .nav2 {
+        display: none !important;
     }
-    .container-input {
-        display: none;
+
+    .nav3 {
+        display: flex !important;
     }
-    
+}
+
+.nav3 {
+    display: none;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 25px;
+    height: 100px;
+}
+
+/* NAV3 SX */
+.container-sx3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-sx3 img {
+    height: 27px;
+    padding-left: 20px;
 
 }
 
-/* SECTION */
+.container-sx3 i {
+    font-size: 25px;
+}
 
+/* NAV3 DX */
+.container-dx3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-dx3 a i {
+    font-size: 21px;
+    padding-right: 25px;
+}
+
+
+/* SECTION */
 .section1 {
     display: flex;
     justify-content: center;
@@ -206,14 +236,17 @@ nav img {
     20% {
         background-color: rgb(249, 174, 174);
     }
+
     40% {
         background-color: rgb(252, 181, 252);
     }
+
     60% {
         background-color: rgb(212, 176, 250);
     }
+
     80% {
         background-color: rgb(221, 220, 220);
     }
-    
+
 }
