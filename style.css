@@ -774,7 +774,7 @@ nav img {
 footer {
     background-color: #ffffff;
     width: 100vw;
-    height: 290px;
+    height: vh;
 }
 
 /* FOOTER CONTAINER1 */
@@ -857,6 +857,7 @@ footer {
     align-items: center;
     justify-content: space-around;
     width: 100%;
+    padding: 80px 0 40px 0;
 }
 
 .f-container2 ul {
