@@ -1,3 +1,8 @@
+
+/* DATA   - 08/02/2024 
+   AUTORE - Antonino Palma Esposito
+*/
+
 * {
     margin: 0;
     padding: 0;
@@ -407,6 +412,38 @@ nav img {
     margin: 0 10px;
 }
 
+@media screen and (max-width:1650px){
+    .box1 {
+        display: none;
+    }
+}
+
+@media screen and (max-width:1380px){
+    .box2 {
+        display: none;
+    }
+}
+
+@media screen and (max-width:1100px){
+    .box3 {
+        display: none;
+    }
+}
+
+@media screen and (max-width:820px){
+    .box4 {
+        display: none;
+    }
+}
+
+@media screen and (max-width:550px){
+    .box5 {
+        display: none;
+    }
+}
+    
+
+
 /* CAROSELLO IMG */
 .box1 {
     background-color: rgb(51, 101, 80);
@@ -731,3 +768,100 @@ nav img {
     }
 }
     
+
+
+/* FOOTER */
+footer {
+    background-color: #ffffff;
+    width: 100vw;
+    height: 290px;
+}
+
+/* FOOTER CONTAINER1 */
+.f-container1 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 30px;
+    width: 100vw;
+}
+
+/* FOOTER LOGO */
+.f-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.f-logo img {
+    height: 30px;
+}
+
+/* FOOTER LIST */
+.f-container1 p {
+    text-align: center;
+}
+
+.f-container1 p a{
+    padding: 0 25px;
+}
+
+.f-container1 p a{
+    color: black;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+/* FOOTER ICONE */
+.f-icone {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.f-icone i {
+    padding: 0 10px;
+    font-size: 20px;
+    color: black;
+}
+
+@media screen and (max-width: 1251px) {
+    .f-container1 p a {
+        padding: 0 8px;
+    }
+}
+
+@media screen and (max-width: 870px) {
+    .f-container1 {
+        flex-direction: column;
+        padding: 0 30px;
+    }
+    .f-logo img {
+        margin: 50px 0 20px 0;
+    }
+    .f-container1 p {
+        padding-bottom: 20px;
+        line-height: 30px;
+    } 
+}
+
+/* FOOTER CONTAINER2 */
+.f-container2 {
+    text-align: center;
+    width: 100%;
+}
+
+.f-container2 p {
+    display: flex;
+}
+
+.f-container2 p a {
+    color: rgb(164, 164, 164);
+    font-size: 14px;
+    padding: 0 10px;
+}
+
+
+
+
+
