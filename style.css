@@ -843,23 +843,40 @@ footer {
         padding-bottom: 20px;
         line-height: 30px;
     } 
+    .f-container2 {
+        padding: 100px 0 40px 0;
+    }
+    footer {
+        height: 340px;
+    }
 }
 
 /* FOOTER CONTAINER2 */
 .f-container2 {
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
     width: 100%;
 }
 
-.f-container2 p {
+.f-container2 ul {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
-.f-container2 p a {
+.f-container2 ul li a {
     color: rgb(164, 164, 164);
     font-size: 14px;
     padding: 0 10px;
 }
+
+@media screen and (max-width: 646px) {
+    .f-container2 {
+        flex-direction: column;
+    }
+}
+
 
 
 
