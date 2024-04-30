@@ -334,7 +334,7 @@ nav img {
         font-size: 8.5vw;
         letter-spacing: 0.1px;
         line-height: 55px;
-        
+        margin-bottom: -10px;
     }
 
     .section1 a {
@@ -348,6 +348,8 @@ nav img {
         text-align: center;
         font-size: 18px;
     }
+
+    
 }
 
 @media screen and (max-width:630px) {
@@ -368,7 +370,7 @@ nav img {
     justify-content: center;
     align-items: center;
     height: 48px;
-    width: 90px;
+    width: 120px;
     background-color: black;
     padding: 28px 38px;
     border-radius: 50px;
@@ -379,6 +381,7 @@ nav img {
     font-size: 14px;
     font-weight: 600;
     letter-spacing: 1px;
+    text-wrap: nowrap;
 }
 
 
@@ -828,15 +831,17 @@ nav img {
     .section-container {
         padding: 120px 30px;
     }
+
+    
     .sect-txt h1 {
-        font-size: 40px;
-        line-height: 40px;
+        font-size: 45px;
+        line-height: 50px;
     }
     .sect-txt h1 br {
         display: none;
     }
     .sect-txt p {
-        font-size: 18px;
+        font-size: 20px;
         width: 100%;
     }
 }
