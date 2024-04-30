@@ -335,7 +335,6 @@ nav img {
         letter-spacing: 0.1px;
         line-height: 55px;
         margin-bottom: -10px;
-        margin-top: 10px;
     }
 
     .section1 a {
@@ -562,7 +561,7 @@ nav img {
 .titolo2 {
     text-align: center;
     font-size: 48px;
-    padding-bottom: 40px;
+    padding-bottom: 50px;
 }
 
 @media screen and (max-width:768px) {
