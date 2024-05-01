@@ -9,6 +9,7 @@
     box-sizing: border-box;
     list-style: none;
     text-decoration: none;
+    
 }
 
 
@@ -19,7 +20,10 @@ body {
     overflow-x: hidden;
 }
 
-
+.wrapper {
+    position: relative;
+    overflow-x: hidden;
+}
 
 /* BACKGROUND COLOR */
 .sfondo {
